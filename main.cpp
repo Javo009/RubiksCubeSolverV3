@@ -26,14 +26,14 @@ int main() {
     if (cube.isSolved()) cout << "SOLVED\n\n";
     else cout << "NOT SOLVED\n\n";
 
-    vector<GenericRubiksCube::MOVE> moves = cube.randomShuffleCube(15);
+    vector<GenericRubiksCube::MOVE> moves = cube.randomShuffleCube(8);
     cube.print();
 
     for(auto it: moves) cout << cube.getMove(it) << " ";
     cout << "\n";
 
 
-    string fileName = R"(C:\Users\Lenovo\CLionProjects\RubiksCubeSolverV1\Databases\yoyo)";
+    string fileName = R"(C:\Users\Lenovo\CLionProjects\RubiksCubeSolverV1\Databases\yoyo.txt)";
 
 
     // DFSSolver<RubiksCubeBitboard, HashBitboard> dfsSolver(cube);
