@@ -26,7 +26,7 @@ int main() {
     if (cube.isSolved()) cout << "SOLVED\n\n";
     else cout << "NOT SOLVED\n\n";
 
-    vector<GenericRubiksCube::MOVE> moves = cube.randomShuffleCube(8);
+    vector<GenericRubiksCube::MOVE> moves = cube.randomShuffleCube(14);
     cube.print();
 
     for(auto it: moves) cout << cube.getMove(it) << " ";
