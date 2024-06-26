@@ -79,6 +79,36 @@ build CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCubeBitboard.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\RubiksCubeSolverV1.dir
   OBJECT_FILE_DIR = CMakeFiles\RubiksCubeSolverV1.dir\Model
 
+build CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/CornerDBMaker.cpp.obj: CXX_COMPILER__RubiksCubeSolverV1_unscanned_Debug C$:/Users/Lenovo/CLionProjects/RubiksCubeSolverV1/PatternDatabases/CornerDBMaker.cpp || cmake_object_order_depends_target_RubiksCubeSolverV1
+  DEP_FILE = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases\CornerDBMaker.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RubiksCubeSolverV1.dir
+  OBJECT_FILE_DIR = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases
+
+build CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/CornerPatternDatabase.cpp.obj: CXX_COMPILER__RubiksCubeSolverV1_unscanned_Debug C$:/Users/Lenovo/CLionProjects/RubiksCubeSolverV1/PatternDatabases/CornerPatternDatabase.cpp || cmake_object_order_depends_target_RubiksCubeSolverV1
+  DEP_FILE = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases\CornerPatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RubiksCubeSolverV1.dir
+  OBJECT_FILE_DIR = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases
+
+build CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/math.cpp.obj: CXX_COMPILER__RubiksCubeSolverV1_unscanned_Debug C$:/Users/Lenovo/CLionProjects/RubiksCubeSolverV1/PatternDatabases/math.cpp || cmake_object_order_depends_target_RubiksCubeSolverV1
+  DEP_FILE = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases\math.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RubiksCubeSolverV1.dir
+  OBJECT_FILE_DIR = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases
+
+build CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/NibbleArray.cpp.obj: CXX_COMPILER__RubiksCubeSolverV1_unscanned_Debug C$:/Users/Lenovo/CLionProjects/RubiksCubeSolverV1/PatternDatabases/NibbleArray.cpp || cmake_object_order_depends_target_RubiksCubeSolverV1
+  DEP_FILE = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases\NibbleArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RubiksCubeSolverV1.dir
+  OBJECT_FILE_DIR = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases
+
+build CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/PatternDatabase.cpp.obj: CXX_COMPILER__RubiksCubeSolverV1_unscanned_Debug C$:/Users/Lenovo/CLionProjects/RubiksCubeSolverV1/PatternDatabases/PatternDatabase.cpp || cmake_object_order_depends_target_RubiksCubeSolverV1
+  DEP_FILE = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases\PatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RubiksCubeSolverV1.dir
+  OBJECT_FILE_DIR = CMakeFiles\RubiksCubeSolverV1.dir\PatternDatabases
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RubiksCubeSolverV1
@@ -87,7 +117,7 @@ build CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCubeBitboard.cpp.obj: CXX_CO
 #############################################
 # Link the executable RubiksCubeSolverV1.exe
 
-build RubiksCubeSolverV1.exe: CXX_EXECUTABLE_LINKER__RubiksCubeSolverV1_Debug CMakeFiles/RubiksCubeSolverV1.dir/main.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/GenericRubiksCube.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCube3dArray.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCube1dArray.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCubeBitboard.cpp.obj
+build RubiksCubeSolverV1.exe: CXX_EXECUTABLE_LINKER__RubiksCubeSolverV1_Debug CMakeFiles/RubiksCubeSolverV1.dir/main.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/GenericRubiksCube.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCube3dArray.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCube1dArray.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/Model/RubiksCubeBitboard.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/CornerDBMaker.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/CornerPatternDatabase.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/math.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/NibbleArray.cpp.obj CMakeFiles/RubiksCubeSolverV1.dir/PatternDatabases/PatternDatabase.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RubiksCubeSolverV1.dir
