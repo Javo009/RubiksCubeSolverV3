@@ -1,8 +1,8 @@
 //
 // Created by Lenovo on 26-06-2024.
 //
-#include <bits/stdc++.h>
-using namespace std;
+#ifndef RUBIKSCUBEBITBOARD_H
+#define RUBIKSCUBEBITBOARD_H
 #include "GenericRubiksCube.h"
 
 class RubiksCubeBitboard : public GenericRubiksCube {
@@ -404,3 +404,5 @@ struct HashBitboard {
         return (size_t) final_hash;
     }
 };
+
+#endif // RUBIKSCUBEBITBOARD_H

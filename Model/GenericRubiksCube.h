@@ -52,7 +52,7 @@ class GenericRubiksCube {
      * The rows and columns are 0-indexed.
      * @param Face, row, and column index
      */
-    virtual COLOR getColor(FACE face, unsigned row, unsigned col) const = 0;
+    [[nodiscard]] virtual COLOR getColor(FACE face, unsigned row, unsigned col) const = 0;
 
     /*
      * Returns the first letter of the given COLOR
@@ -63,7 +63,7 @@ class GenericRubiksCube {
     /*
      * Returns true if the Rubik Cube is solved, otherwise returns false.
      */
-    virtual bool isSolved() const = 0;
+    [[nodiscard]] virtual bool isSolved() const = 0;
 
     /*
      * Returns the move in the string format.
@@ -176,11 +176,11 @@ class GenericRubiksCube {
 
     virtual GenericRubiksCube &b2() = 0;
 
-    string getCornerColorString(uint8_t ind) const;
+    [[nodiscard]] string getCornerColorString(uint8_t ind) const;
 
-    uint8_t getCornerIndex(uint8_t ind) const;
+    [[nodiscard]] uint8_t getCornerIndex(uint8_t ind) const;
 
-    uint8_t getCornerOrientation(uint8_t ind) const;
+    [[nodiscard]] uint8_t getCornerOrientation(uint8_t ind) const;
 };
 
 

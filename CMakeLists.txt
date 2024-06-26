@@ -10,7 +10,7 @@ add_executable(RubiksCubeSolverV1
         Model/RubiksCube3dArray.cpp
         Model/RubiksCube1dArray.cpp
         Model/RubiksCubeBitboard.cpp
-        Model/PatternDatabas/PatternDatabase.h
+        Model/PatternDatabase/PatternDatabase.h
         Solver/DFSSolver.h
         Solver/BFSSolver.h
         Solver/IDDFSSolver.h
