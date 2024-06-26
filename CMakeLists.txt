@@ -3,6 +3,16 @@ project(RubiksCubeSolverV1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(RubiksCubeSolverV1 main.cpp
-        GenericRubiksCube.cpp
-        GenericRubiksCube.h)
+add_executable(RubiksCubeSolverV1
+        main.cpp
+        Model/GenericRubiksCube.cpp
+        Model/GenericRubiksCube.h
+        Model/RubiksCube3dArray.cpp
+        Model/RubiksCube1dArray.cpp
+        Model/RubiksCubeBitboard.cpp
+        Model/PatternDatabas/PatternDatabase.h
+        Solver/DFSSolver.h
+        Solver/BFSSolver.h
+        Solver/IDDFSSolver.h
+        Solver/IDAstarSolver.h
+)
